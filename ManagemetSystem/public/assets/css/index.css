@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body
+{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(159, 193, 168, 0.595);
+}
+.app
+{
+border:10px;
+border-top-left-radius: 33%;
+border-color: aliceblue;
+border: 100px;
+border-color: rgb(255, 200, 0)  ;
+height: 100%;
+width: 95%;
+padding-bottom: 20px;
+background-color: rgba(159, 193, 168, 0.878);
+display: flex;
+justify-content: center;  
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+}
+.margin
+{
+margin: 180px;
+}
+.content
+{
+margin: 0px 10px;
+}
+.create
+{
+margin-top: 40px;
+}
+.outher_content
+{
+margin: 5px 10px;
+width: 75%;
+}
+.other_content:child
+{
+margin-top: 10px;
+}
+.content
+{
+height: 334px;
+width: 98%;
+display: flex;
+justify-content: space-between;
+}
+img
+{
+border-radius: 3%;
+width: 100%;
+height: 90%;
+transition: 2s;
+}
+video
+{
+border-radius: 3%;
+width: 100%;
+height: 90%;
+transition: 2s;
+}
+.dis
+{
+  display: none;
+}
+.img_content
+{
+height: 94%;
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+:root
+{
+  --ra : 10%;
+}
+.the_buttons_R
+{
+margin: 15px 0px;
+height: 20px;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+.the_buttons_R .image-btn, .the_buttons_R .video-btn
+{
+width: 40%;
+background-color: #c2fbd7;
+border-radius: 100px;
+box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: green;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.the_buttons_R .video-btn:hover, .the_buttons_R .image-btn:hover
+{
+box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+.outher_content h1,.outher_content h2,.the_buttons_L
+{
+height: 15%;
+font-size: large;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.desccrition
+{
+height: 60%;
+}
+.data
+{
+height: 10%;
+color:cyan;
+}
+form
+{
+width:40% ;
+}
+.delete
+{
+width: 100%;
+background-color: #cb7d7d;
+border-radius: 100px;
+box-shadow: rgba(182, 50, 50, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: red;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.delete:hover
+{
+  box-shadow: rgba(187, 44, 44, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.edite
+{
+width: 100%;
+background-color: #cbcb7f;
+border-radius: 100px;
+box-shadow: rgba(212, 255, 0, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: yellow;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.edite:hover
+{
+box-shadow: rgba(185, 187, 44, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+.gcodeAsk
+{
+width: 100%;
+background-color: #10ff00;
+border-radius: 100px;
+box-shadow: rgba(182, 50, 50, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: #000000;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.gcodeAsk:hover
+{
+box-shadow: rgba(187, 44, 44, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+.create
+{
+width: 100%;
+background-color: #b1ff00;
+border-radius: 100px;
+box-shadow: rgba(212, 255, 0, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: #004085;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.create:hover
+{
+box-shadow: rgba(185, 187, 44, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+.the_buttons_L
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.f1,.f2
+{
+width: 50%;
+margin-left: 25%;
+}
+.title
+{
+color: blue;
+}
+input
+{
+height: 150px;
+text-overflow: ellipsis;
+}

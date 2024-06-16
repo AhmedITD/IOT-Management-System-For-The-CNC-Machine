@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;  
+font-size: x-large;
+color: #03f6f1;
+}
+body
+{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(159, 193, 168, 0.595);
+}
+.app
+{
+margin-top: 20px;
+border:10px;
+border-top-left-radius: 43%;
+border-color: aliceblue;
+border: 100px;
+border-color: rgb(255, 200, 0)  ;
+height: 100%;
+width: 95%;
+background-color: rgba(159, 193, 168, 0.878);
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+}
+form
+{
+width: 50%;
+height: 100%;
+margin-top: 50px;
+padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.p
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.the_button
+{
+width: 135px;
+height: 47px;
+background-color: #c2c5fb;
+border-radius: 100px;
+box-shadow: rgba(44, 73, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: blue;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.the_button:hover
+{
+box-shadow: rgba(44, 61, 187, 0.35) 0 -25px 18px -14px inset,rgba(44, 70, 187, 0.25) 0 1px 2px,rgba(46, 44, 187, 0.25) 0 2px 4px,rgba(44, 46, 187, 0.25) 0 4px 8px,rgba(44, 56, 187, 0.25) 0 8px 16px,rgba(70, 44, 187, 0.25) 0 16px 32px;
+transform: scale(1.05) 
+}
+label
+{
+margin-bottom:15px;
+}
+:root 
+{
+--ra: 38%;
+}
+input
+{
+background-color: transparent;
+border: 3px solid #ffffff;
+border-top-left-radius: var(--ra);
+border-top-right-radius: var(--ra);
+}
+input[type="file"]
+{
+display: none;
+}
+span
+{
+color: black;
+font-size: medium;
+font-weight: bold;
+margin-top: 9px;
+margin-bottom: 16px;
+}
+.btnImage, .btngcode
+{
+width: 163px;
+height: 43px;
+background-color: rgb(32, 178, 170);
+border-radius: 100px;
+box-shadow: rgba(44, 73, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: wheat;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.btnImage:hover, .btngcode:hover
+{
+transform: scale(1.05) 
+}
